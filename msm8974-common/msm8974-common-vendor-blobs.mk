@@ -20,7 +20,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8974-common/proprietary/etc/firmware/wcnss.mdt:system/etc/firmware/wcnss.mdt \
     vendor/xiaomi/msm8974-common/proprietary/etc/firmware/Signedrompatch_v20.bin:system/etc/firmware/Signedrompatch_v20.bin \
     vendor/xiaomi/msm8974-common/proprietary/etc/firmware/Signedrompatch_v21.bin:system/etc/firmware/Signedrompatch_v21.bin \
-    vendor/xiaomi/msm8974-common/proprietary/etc/firmware/Signedrompatch_v24.bin:system/etc/firmware/Signedrompatch_v24.bin
+    vendor/xiaomi/msm8974-common/proprietary/etc/firmware/Signedrompatch_v24.bin:system/etc/firmware/Signedrompatch_v24.bin \
+    vendor/xiaomi/msm8974-common/proprietary/etc/firmware/Signedrompatch_v30.bin:system/etc/firmware/Signedrompatch_v30.bin
 
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8974-common/proprietary/bin/adsprpcd:system/bin/adsprpcd \
@@ -104,9 +105,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8974-common/proprietary/bin/charger_monitor:system/bin/charger_monitor \
     vendor/xiaomi/msm8974-common/proprietary/lib/libmm-omxcore.so:system/lib/libmm-omxcore.so \
     vendor/xiaomi/msm8974-common/proprietary/bin/atmel_hover_tune.sh:system/bin/atmel_hover_tune.sh \
-    vendor/xiaomi/msm8974-common/proprietary/etc/permissions/xmnvitems.xml:system/etc/permissions/xmnvitems.xml \
-    vendor/xiaomi/msm8974-common/proprietary/framework/xmnvitems.jar:system/framework/xmnvitems.jar \
-    vendor/xiaomi/msm8974-common/proprietary/lib/libxmnvitemJni.so:system/lib/libxmnvitemJni.so \
     vendor/xiaomi/msm8974-common/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/xiaomi/msm8974-common/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/xiaomi/msm8974-common/proprietary/bin/lowi-server:system/bin/lowi-server \
@@ -121,12 +119,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8974-common/proprietary/vendor/lib/libasn1crt.so:system/vendor/lib/libasn1crt.so \
     vendor/xiaomi/msm8974-common/proprietary/vendor/lib/libasn1crtx.so:system/vendor/lib/libasn1crtx.so \
     vendor/xiaomi/msm8974-common/proprietary/vendor/lib/libalarmservice_jni.so:system/vendor/lib/libalarmservice_jni.so \
-    vendor/xiaomi/msm8974-common/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/xiaomi/msm8974-common/proprietary/etc/permissions/android.hardware.consumerir.xml:system/etc/permissions/android.hardware.consumerir.xml \
     vendor/xiaomi/msm8974-common/proprietary/lib/hw/consumerir.msm8974.so:system/lib/hw/consumerir.msm8974.so \
-    vendor/xiaomi/msm8974-common/proprietary/framework/qcnvitems.jar:system/framework/qcnvitems.jar \
     vendor/xiaomi/msm8974-common/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
-    vendor/xiaomi/msm8974-common/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/xiaomi/msm8974-common/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/xiaomi/msm8974-common/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so
 
@@ -135,11 +130,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8974-common/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon
 
 PRODUCT_COPY_FILES += \
-    vendor/xiaomi/msm8974-common/proprietary/lib/hw/camera.msm8974.so:system/lib/hw/camera.msm8974.so \
+    vendor/xiaomi/msm8974-common/proprietary/lib/hw/camera.vendor.msm8974.so:system/lib/hw/camera.vendor.msm8974.so \
     vendor/xiaomi/msm8974-common/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/xiaomi/msm8974-common/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/xiaomi/msm8974-common/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/xiaomi/msm8974-common/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
+    vendor/xiaomi/msm8974-common/proprietary/lib/libRecoFace.so:system/lib/libRecoFace.so \
     vendor/xiaomi/msm8974-common/proprietary/lib/libchromatix_imx135_liveshot.so:system/lib/libchromatix_imx135_liveshot.so \
     vendor/xiaomi/msm8974-common/proprietary/lib/libchromatix_imx214_liveshot.so:system/lib/libchromatix_imx214_liveshot.so \
     vendor/xiaomi/msm8974-common/proprietary/lib/libchromatix_imx215_liveshot.so:system/lib/libchromatix_imx215_liveshot.so \
@@ -416,11 +412,25 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8974-common/proprietary/framework/org.codeaurora.camera.jar:system/framework/org.codeaurora.camera.jar \
     vendor/xiaomi/msm8974-common/proprietary/vendor/lib/libchromatix_imx135_hfr_60.so:system/vendor/lib/libchromatix_imx135_hfr_60.so \
     vendor/xiaomi/msm8974-common/proprietary/vendor/lib/libchromatix_imx135_hfr_90.so:system/vendor/lib/libchromatix_imx135_hfr_90.so \
-    vendor/xiaomi/msm8974-common/proprietary/vendor/lib/libmmcamera2_is.so:system/vendor/lib/libmmcamera2_is.so
+    vendor/xiaomi/msm8974-common/proprietary/vendor/lib/libmmcamera2_is.so:system/vendor/lib/libmmcamera2_is.so \
+    vendor/xiaomi/msm8974-common/proprietary/vendor/lib/libFaceProc.so:system/vendor/lib/libFaceProc.so \
+    vendor/xiaomi/msm8974-common/proprietary/vendor/lib/libarcsoft_beauty_shot.so:system/vendor/lib/libarcsoft_beauty_shot.so \
+    vendor/xiaomi/msm8974-common/proprietary/vendor/lib/libchromaflash.so:system/vendor/lib/libchromaflash.so \
+    vendor/xiaomi/msm8974-common/proprietary/vendor/lib/libmmcamera2_q3a_special.so:system/vendor/lib/libmmcamera2_q3a_special.so \
+    vendor/xiaomi/msm8974-common/proprietary/vendor/lib/libmmcamera_chromaflash_lib.so:system/vendor/lib/libmmcamera_chromaflash_lib.so \
+    vendor/xiaomi/msm8974-common/proprietary/vendor/lib/libmmcamera_ubifocus_lib.so:system/vendor/lib/libmmcamera_ubifocus_lib.so \
+    vendor/xiaomi/msm8974-common/proprietary/vendor/lib/libt2tmanager.so:system/vendor/lib/libt2tmanager.so \
+    vendor/xiaomi/msm8974-common/proprietary/vendor/lib/libubifocus.so:system/vendor/lib/libubifocus.so
 
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8974-common/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
     vendor/xiaomi/msm8974-common/proprietary/vendor/lib/libmmparser.so:system/vendor/lib/libmmparser.so
+
+PRODUCT_COPY_FILES += \
+    vendor/xiaomi/msm8974-common/proprietary/vendor/lib/libavenhancements.so:system/vendor/lib/libavenhancements.so
+
+PRODUCT_COPY_FILES += \
+    vendor/xiaomi/msm8974-common/proprietary/bin/wcnss_service:system/bin/wcnss_service
 
 # Performance
 PRODUCT_COPY_FILES += \

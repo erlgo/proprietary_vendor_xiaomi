@@ -30,7 +30,6 @@ PRODUCT_PACKAGES += \
     libqc-opt \
     qcrilmsgtunnel \
     shutdownlistener \
-    fastdormancy \
     com.qualcomm.location
 
 PRODUCT_PACKAGE_OVERLAYS += vendor/xiaomi/overlay/common
