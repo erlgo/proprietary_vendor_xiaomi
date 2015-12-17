@@ -493,6 +493,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8974-common/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so
 
 PRODUCT_COPY_FILES += \
+    vendor/xiaomi/msm8974-common/proprietary/vendor/qcril.db:system/vendor/qcril.db
+
+PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8974-common/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/xiaomi/msm8974-common/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/xiaomi/msm8974-common/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
