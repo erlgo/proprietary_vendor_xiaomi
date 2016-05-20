@@ -103,7 +103,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libWVStreamControlAPI_L1
 LOCAL_MODULE_OWNER := xiaomi
-LOCAL_SRC_FILES := proprietary/vendor/lib/libWVStreamControlAPI_L3.so
+LOCAL_SRC_FILES := proprietary/vendor/lib/libWVStreamControlAPI_L1.so
 LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR_SHARED_LIBRARIES)
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := .so
