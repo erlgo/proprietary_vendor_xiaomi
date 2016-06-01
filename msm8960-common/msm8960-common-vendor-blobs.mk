@@ -148,7 +148,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8960-common/proprietary/lib/libqdi.so:system/lib/libqdi.so \
     vendor/xiaomi/msm8960-common/proprietary/lib/libqdp.so:system/lib/libqdp.so \
     vendor/xiaomi/msm8960-common/proprietary/lib/libqmi.so:system/lib/libqmi.so \
-    vendor/xiaomi/msm8960-commom/proprietary/lib/libqmi_cci.so:system/lib/libqmi_cci.so \
+    vendor/xiaomi/msm8960-common/proprietary/lib/libqmi_cci.so:system/lib/libqmi_cci.so \
     vendor/xiaomi/msm8960-common/proprietary/lib/libqmi_common_so.so:system/lib/libqmi_common_so.so \
     vendor/xiaomi/msm8960-common/proprietary/lib/libqmi_client_qmux.so:system/lib/libqmi_client_qmux.so \
     vendor/xiaomi/msm8960-common/proprietary/lib/libqmi_csvt_srvc.so:system/lib/libqmi_csvt_srvc.so \
