@@ -22,6 +22,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/aries/proprietary/lib/libalsautils.so:system/lib/libalsautils.so \
     vendor/xiaomi/aries/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
     vendor/xiaomi/aries/proprietary/lib/libaudioparsers.so:system/lib/libaudioparsers.so \
+    vendor/xiaomi/aries/proprietary/lib/libalsa-intf.so:system/lib/libalsa-intf.so \
 
 # Back Cam
 PRODUCT_COPY_FILES += \
