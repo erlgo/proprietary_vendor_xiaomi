@@ -22,4 +22,5 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/qcom-common/proprietary-keymaster/firmware/keymaster/keymaster.b01:system/vendor/firmware/keymaster/keymaster.b01 \
     vendor/xiaomi/qcom-common/proprietary-keymaster/firmware/keymaster/keymaster.b02:system/vendor/firmware/keymaster/keymaster.b02 \
     vendor/xiaomi/qcom-common/proprietary-keymaster/firmware/keymaster/keymaster.b03:system/vendor/firmware/keymaster/keymaster.b03 \
-    vendor/xiaomi/qcom-common/proprietary-keymaster/firmware/keymaster/keymaster.mdt:system/vendor/firmware/keymaster/keymaster.mdt 
+    vendor/xiaomi/qcom-common/proprietary-keymaster/firmware/keymaster/keymaster.mdt:system/vendor/firmware/keymaster/keymaster.mdt \
+   vendor/xiaomi/qcom-common/proprietary-keymaster/firmware/keymaster/keymaste.mdt:system/vendor/firmware/keymaster/keymaste.mdt 
