@@ -153,11 +153,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8960-common/proprietary/lib/libqmi_client_qmux.so:system/lib/libqmi_client_qmux.so \
     vendor/xiaomi/msm8960-common/proprietary/lib/libqmi_csvt_srvc.so:system/lib/libqmi_csvt_srvc.so \
     vendor/xiaomi/msm8960-common/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
-    vendor/xiaomi/msm8960-common/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
     vendor/xiaomi/msm8960-common/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
     vendor/xiaomi/msm8960-common/proprietary/lib/libxml.so:system/lib/libxml.so
 
 PRODUCT_COPY_FILES += \
+    vendor/xiaomi/msm8960-common/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
     vendor/xiaomi/msm8960-common/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/xiaomi/msm8960-common/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
     vendor/xiaomi/msm8960-common/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so
