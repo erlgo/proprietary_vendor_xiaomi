@@ -18,8 +18,15 @@
 # Builder instructions about what proprietary files to include
 
 PRODUCT_COPY_FILES += \
-    vendor/xiaomi/qcom-common/proprietary-keymaster/firmware/keymaster/keymaster.b00:system/vendor/firmware/keymaster/keymaster.b00 \
-    vendor/xiaomi/qcom-common/proprietary-keymaster/firmware/keymaster/keymaster.b01:system/vendor/firmware/keymaster/keymaster.b01 \
-    vendor/xiaomi/qcom-common/proprietary-keymaster/firmware/keymaster/keymaster.b02:system/vendor/firmware/keymaster/keymaster.b02 \
-    vendor/xiaomi/qcom-common/proprietary-keymaster/firmware/keymaster/keymaster.b03:system/vendor/firmware/keymaster/keymaster.b03 \
-    vendor/xiaomi/qcom-common/proprietary-keymaster/firmware/keymaster/keymaster.mdt:system/vendor/firmware/keymaster/keymaster.mdt 
+	vendor/xiaomi/qcom-common/proprietary-keymaster/firmware/keymaster/keymaster.b00:system/vendor/firmware/keymaster/keymaster.b00 \
+	vendor/xiaomi/qcom-common/proprietary-keymaster/firmware/keymaster/keymaster.b01:system/vendor/firmware/keymaster/keymaster.b01 \
+	vendor/xiaomi/qcom-common/proprietary-keymaster/firmware/keymaster/keymaster.b02:system/vendor/firmware/keymaster/keymaster.b02 \
+	vendor/xiaomi/qcom-common/proprietary-keymaster/firmware/keymaster/keymaster.b03:system/vendor/firmware/keymaster/keymaster.b03 \
+	vendor/xiaomi/qcom-common/proprietary-keymaster/firmware/keymaster/keymaster.mdt:system/vendor/firmware/keymaster/keymaster.mdt
+
+# Keymaster && keystore libraries
+PRODUCT_COPY_FILES += \
+	vendor/xiaomi/qcom-common/proprietary-keymaster/lib/libkeymaster1.so:system/lib/libkeymaster1.so \
+	vendor/xiaomi/qcom-common/proprietary-keymaster/lib/libkeymaster_messages.so:system/lib/libkeymaster_messages.so \
+	vendor/xiaomi/qcom-common/proprietary-keymaster/lib/libkeystore_binder.so:system/lib/libkeystore_binder.so \
+	vendor/xiaomi/qcom-common/proprietary-keymaster/lib/libkeystore-engine.so:system/lib/libkeystore-engine.so
