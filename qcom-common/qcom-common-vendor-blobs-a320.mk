@@ -27,10 +27,13 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/qcom-common/proprietary-a320/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/xiaomi/qcom-common/proprietary-a320/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
     vendor/xiaomi/qcom-common/proprietary-a320/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
+    vendor/xiaomi/qcom-common/proprietary-a320/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
     vendor/xiaomi/qcom-common/proprietary-a320/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
     vendor/xiaomi/qcom-common/proprietary-a320/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
     vendor/xiaomi/qcom-common/proprietary-a320/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
-    vendor/xiaomi/qcom-common/proprietary-a320/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so
+    vendor/xiaomi/qcom-common/proprietary-a320/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
+    vendor/xiaomi/qcom-common/proprietary-a320/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
+    vendor/xiaomi/qcom-common/proprietary-a320/vendor/lib/libuiblur.so:system/vendor/lib/libuiblur.so
 
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/qcom-common/proprietary-a320/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
