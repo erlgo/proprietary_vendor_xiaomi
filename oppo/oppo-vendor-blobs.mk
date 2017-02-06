@@ -16,6 +16,4 @@
 
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/oppo/proprietary/app/PPPreference/PPPreference.apk:system/app/PPPreference/PPPreference.apk \
-    vendor/xiaomi/oppo/proprietary/app/QuickBoot/QuickBoot.apk:system/app/QuickBoot/QuickBoot.apk \
-    vendor/xiaomi/oppo/proprietary/etc/permissions/com.google.widevine.software.drm.xml:system/etc/permissions/com.google.widevine.software.drm.xml \
-    vendor/xiaomi/oppo/proprietary/framework/com.google.widevine.software.drm.jar:system/framework/com.google.widevine.software.drm.jar
+    vendor/xiaomi/oppo/proprietary/app/QuickBoot/QuickBoot.apk:system/app/QuickBoot/QuickBoot.apk
