@@ -18,11 +18,11 @@
 # Builder instructions about what proprietary files to include
 
 PRODUCT_COPY_FILES += \
-	vendor/xiaomi/qcom-common/proprietary-discretix/vendor/firmware/discretix/discretix.b00:system/vendor/firmware/discretix/dxhdcp2.b00 \
-	vendor/xiaomi/qcom-common/proprietary-discretix/vendor/firmware/discretix/discretix.b01:system/vendor/firmware/discretix/dxhdcp2.b01 \
-	vendor/xiaomi/qcom-common/proprietary-discretix/vendor/firmware/discretix/discretix.b02:system/vendor/firmware/discretix/dxhdcp2.b02 \
-	vendor/xiaomi/qcom-common/proprietary-discretix/vendor/firmware/discretix/discretix.b03:system/vendor/firmware/discretix/dxhdcp2.b03 \
-	vendor/xiaomi/qcom-common/proprietary-discretix/vendor/firmware/discretix/discretix.mdt:system/vendor/firmware/discretix/dxhdcp2.mdt
+	vendor/xiaomi/qcom-common/proprietary-discretix/vendor/firmware/discretix/dxhdcp2.b00:system/vendor/firmware/discretix/dxhdcp2.b00 \
+	vendor/xiaomi/qcom-common/proprietary-discretix/vendor/firmware/discretix/dxhdcp2.b01:system/vendor/firmware/discretix/dxhdcp2.b01 \
+	vendor/xiaomi/qcom-common/proprietary-discretix/vendor/firmware/discretix/dxhdcp2.b02:system/vendor/firmware/discretix/dxhdcp2.b02 \
+	vendor/xiaomi/qcom-common/proprietary-discretix/vendor/firmware/discretix/dxhdcp2.b03:system/vendor/firmware/discretix/dxhdcp2.b03 \
+	vendor/xiaomi/qcom-common/proprietary-discretix/vendor/firmware/discretix/dxhdcp2.mdt:system/vendor/firmware/discretix/dxhdcp2.mdt
 
 # Libraries
 PRODUCT_COPY_FILES += \
