@@ -34,7 +34,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8960-common/proprietary/bin/nl_listener:system/bin/nl_listener \
     vendor/xiaomi/msm8960-common/proprietary/bin/qcks:system/bin/qcks \
     vendor/xiaomi/msm8960-common/proprietary/bin/qmuxd:system/bin/qmuxd \
-    vendor/xiaomi/msm8960-common/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/xiaomi/msm8960-common/proprietary/bin/radish:system/bin/radish \
     vendor/xiaomi/msm8960-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/xiaomi/msm8960-common/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
@@ -161,17 +160,27 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8960-common/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
     vendor/xiaomi/msm8960-common/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so
 
+# QSEECOM
 PRODUCT_COPY_FILES += \
-    vendor/xiaomi/msm8960-common/proprietary/lib/drm/libdrmprplugin.so:system/lib/drm/libdrmprplugin.so \
-    vendor/xiaomi/msm8960-common/proprietary/lib/libDivxDrm.so:system/lib/libDivxDrm.so \
-    vendor/xiaomi/msm8960-common/proprietary/lib/libdrmdiag.so:system/lib/libdrmdiag.so \
+    vendor/xiaomi/msm8960-common/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/xiaomi/msm8960-common/proprietary/lib/libdrmfs.so:system/lib/libdrmfs.so \
     vendor/xiaomi/msm8960-common/proprietary/lib/libdrmtime.so:system/lib/libdrmtime.so \
-    vendor/xiaomi/msm8960-common/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
-    vendor/xiaomi/msm8960-common/proprietary/lib/libSHIMDivxDrm.so:system/lib/libSHIMDivxDrm.so
+    vendor/xiaomi/msm8960-common/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so
+
+# Widevine (requires QSEECOM, netmgr)
+PRODUCT_COPY_FILES += \
+    vendor/xiaomi/msm8960-common/proprietary/lib/libdrmdiag.so:system/lib/libdrmdiag.so \
+    vendor/xiaomi/msm8960-common/proprietary/lib/liboemcrypto.so:system/lib/liboemcrypto.so \
+    vendor/xiaomi/msm8960-common/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
+    vendor/xiaomi/msm8960-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
+    vendor/xiaomi/msm8960-common/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
+    vendor/xiaomi/msm8960-common/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
+    vendor/xiaomi/msm8960-common/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
+    vendor/xiaomi/msm8960-common/proprietary/vendor/lib/libWVphoneAPI.so:system/vendor/lib/libWVphoneAPI.so \
+    vendor/xiaomi/msm8960-common/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so
 
 PRODUCT_COPY_FILES += \
-   vendor/xiaomi/msm8960-common/proprietary/lib/libthermalclient.so:system/lib/libthermalclient.so
+    vendor/xiaomi/msm8960-common/proprietary/lib/libthermalclient.so:system/lib/libthermalclient.so
 
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8960-common/proprietary/lib/libadsprpc.so:system/lib/libadsprpc.so
@@ -183,8 +192,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8960-common/proprietary/vendor/lib/hw/power.qcom.so:system/vendor/lib/hw/power.qcom.so
 
 PRODUCT_COPY_FILES += \
-    vendor/xiaomi/msm8960-common/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
-    vendor/xiaomi/msm8960-common/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/xiaomi/msm8974-common/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/xiaomi/msm8960-common/proprietary/vendor/lib/libmm-abl.so:system/vendor/lib/libmm-abl.so \
     vendor/xiaomi/msm8960-common/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so
