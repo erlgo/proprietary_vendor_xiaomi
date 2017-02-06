@@ -98,7 +98,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8960-common/proprietary/lib/libstlport.so:system/lib/libstlport.so
 
 
-# GPS
+# GPS (gps.msm8960.so and libgps.utils.so from Ivan)
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8960-common/proprietary/lib/hw/flp.msm8960.so:system/lib/hw/flp.msm8960.so \
     vendor/xiaomi/msm8960-common/proprietary/lib/hw/gps.msm8960.so:system/lib/hw/gps.msm8960.so \
