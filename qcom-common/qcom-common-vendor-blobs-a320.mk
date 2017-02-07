@@ -12,14 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# The following blobs were taken from Ivan MMB29M/6.3.22
-# vendor/lib/egl/libEGL_adreno.so
-# vendor/lib/egl/libGLESv2_adreno.so
-# vendor/lib/egl/libplayback_adreno.so
-# vendor/lib/libCB.so
-# vendor/lib/libbccQTI.so
-# vendor/lib/librs_adreno_sha1.so
-# The other blobs are the same as Nexus 7 (flo MOB30X)
+# These blobs were taken from Nexus 7 (flo MOB30X)
 
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/qcom-common/proprietary-a320/vendor/firmware/a300_pfp.fw:system/vendor/firmware/a300_pfp.fw \
