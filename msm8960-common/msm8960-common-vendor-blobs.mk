@@ -55,7 +55,6 @@ PRODUCT_COPY_FILES += \
 
 # Bt
 PRODUCT_COPY_FILES += \
-    vendor/xiaomi/msm8960-common/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/xiaomi/msm8960-common/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/xiaomi/msm8960-common/proprietary/lib/libbt-vendor.so:system/lib/libbt-vendor.so \
     vendor/xiaomi/msm8960-common/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so
