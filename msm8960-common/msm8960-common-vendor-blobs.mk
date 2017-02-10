@@ -38,8 +38,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8960-common/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/xiaomi/msm8960-common/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/xiaomi/msm8960-common/proprietary/bin/time_daemon:system/bin/time_daemon \
-    vendor/xiaomi/msm8960-common/proprietary/bin/usbhub:system/bin/usbhub \
-    vendor/xiaomi/msm8960-common/proprietary/bin/usbhub_init:system/bin/usbhub_init \
     vendor/xiaomi/msm8960-common/proprietary/bin/v4l2-qcamera-app:system/bin/v4l2-qcamera-app
 
 PRODUCT_COPY_FILES += \
@@ -120,7 +118,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8960-common/proprietary/lib/libmmmpod.so:system/lib/libmmmpod.so
 
 PRODUCT_COPY_FILES += \
-    vendor/xiaomi/msm8960-common/proprietary/lib/libCommandSvc.so:system/lib/libCommandSvc.so \
     vendor/xiaomi/msm8960-common/proprietary/lib/libconfigdb.so:system/lib/libconfigdb.so \
     vendor/xiaomi/msm8960-common/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
     vendor/xiaomi/msm8960-common/proprietary/lib/libdsprofile.so:system/lib/libdsprofile.so \
