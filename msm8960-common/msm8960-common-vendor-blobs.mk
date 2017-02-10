@@ -123,7 +123,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8960-common/proprietary/lib/libdss.so:system/lib/libdss.so \
     vendor/xiaomi/msm8960-common/proprietary/lib/libdsucsd.so:system/lib/libdsucsd.so \
     vendor/xiaomi/msm8960-common/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
-    vendor/xiaomi/msm8960-common/proprietary/lib/libidl.so:system/lib/libidl.so \
     vendor/xiaomi/msm8960-common/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
     vendor/xiaomi/msm8960-common/proprietary/lib/libqcci_adc.so:system/lib/libqcci_adc.so \
     vendor/xiaomi/msm8960-common/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
