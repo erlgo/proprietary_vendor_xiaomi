@@ -57,16 +57,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8960-common/proprietary/lib/libbt-vendor.so:system/lib/libbt-vendor.so \
     vendor/xiaomi/msm8960-common/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so
 
-
 # Light
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8960-common/proprietary/lib/hw/lights.msm8960.so:system/lib/hw/lights.msm8960.so
-
-# Camera
-PRODUCT_COPY_FILES += \
-    vendor/xiaomi/msm8960-common/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
-    vendor/xiaomi/msm8960-common/proprietary/lib/libstlport.so:system/lib/libstlport.so
-
 
 # GPS (gps.msm8960.so and libgps.utils.so from Ivan)
 PRODUCT_COPY_FILES += \
