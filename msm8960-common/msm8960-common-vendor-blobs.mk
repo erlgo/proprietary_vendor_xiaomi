@@ -28,7 +28,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8960-common/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
     vendor/xiaomi/msm8960-common/proprietary/bin/ks:system/bin/ks \
     vendor/xiaomi/msm8960-common/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
-    vendor/xiaomi/msm8960-common/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/xiaomi/msm8960-common/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/xiaomi/msm8960-common/proprietary/bin/nl_listener:system/bin/nl_listener \
     vendor/xiaomi/msm8960-common/proprietary/bin/qcks:system/bin/qcks \
@@ -37,8 +36,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8960-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/xiaomi/msm8960-common/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/xiaomi/msm8960-common/proprietary/bin/thermal-engine:system/bin/thermal-engine \
-    vendor/xiaomi/msm8960-common/proprietary/bin/time_daemon:system/bin/time_daemon \
-    vendor/xiaomi/msm8960-common/proprietary/bin/v4l2-qcamera-app:system/bin/v4l2-qcamera-app
+    vendor/xiaomi/msm8960-common/proprietary/bin/time_daemon:system/bin/time_daemon
 
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8960-common/proprietary/bin/irsc_util:system/bin/irsc_util
@@ -67,20 +65,6 @@ PRODUCT_COPY_FILES += \
 # Camera
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8960-common/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
-    vendor/xiaomi/msm8960-common/proprietary/lib/libgemini.so:system/lib/libgemini.so \
-    vendor/xiaomi/msm8960-common/proprietary/lib/libimage-jpeg-dec-omx-comp.so:system/lib/libimage-jpeg-dec-omx-comp.so \
-    vendor/xiaomi/msm8960-common/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
-    vendor/xiaomi/msm8960-common/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
-    vendor/xiaomi/msm8960-common/proprietary/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
-    vendor/xiaomi/msm8960-common/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
-    vendor/xiaomi/msm8960-common/proprietary/lib/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so \
-    vendor/xiaomi/msm8960-common/proprietary/lib/libmmcamera_image_stab.so:system/lib/libmmcamera_image_stab.so \
-    vendor/xiaomi/msm8960-common/proprietary/lib/libmmcamera_interface2.so:system/lib/libmmcamera_interface2.so \
-    vendor/xiaomi/msm8960-common/proprietary/lib/libmmcamera_statsproc31.so:system/lib/libmmcamera_statsproc31.so \
-    vendor/xiaomi/msm8960-common/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
-    vendor/xiaomi/msm8960-common/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
-    vendor/xiaomi/msm8960-common/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
-    vendor/xiaomi/msm8960-common/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/xiaomi/msm8960-common/proprietary/lib/libstlport.so:system/lib/libstlport.so
 
 
@@ -110,11 +94,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8960-common/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
-    vendor/xiaomi/msm8960-common/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
-    vendor/xiaomi/msm8960-common/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
-    vendor/xiaomi/msm8960-common/proprietary/lib/libmmjps.so:system/lib/libmmjps.so \
-    vendor/xiaomi/msm8960-common/proprietary/lib/libmmmpo.so:system/lib/libmmmpo.so \
-    vendor/xiaomi/msm8960-common/proprietary/lib/libmmmpod.so:system/lib/libmmmpod.so
+    vendor/xiaomi/msm8960-common/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so
 
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8960-common/proprietary/lib/libconfigdb.so:system/lib/libconfigdb.so \
