@@ -34,6 +34,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/aries/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/xiaomi/aries/proprietary/bin/thermald:system/bin/thermald
 
+# Diag taken from MIUI V8.1.3.0.LXAMIDI
+PRODUCT_COPY_FILES += \
+    vendor/xiaomi/aries/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so
+
 # Back Cam
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/aries/proprietary/lib/libchromatix_imx175_zsl.so:system/lib/libchromatix_imx175_zsl.so \
