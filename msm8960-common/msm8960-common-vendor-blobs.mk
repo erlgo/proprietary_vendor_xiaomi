@@ -69,15 +69,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8960-common/proprietary/lib/hw/lights.msm8960.so:system/lib/hw/lights.msm8960.so
 
-# Sensors
-PRODUCT_COPY_FILES += \
-    vendor/xiaomi/msm8960-common/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
-    vendor/xiaomi/msm8960-common/proprietary/lib/libAKM.so:system/lib/libAKM.so \
-    vendor/xiaomi/msm8960-common/proprietary/lib/libsensor1.so:system/lib/libsensor1.so \
-    vendor/xiaomi/msm8960-common/proprietary/lib/libsensor_reg.so:system/lib/libsensor_reg.so \
-    vendor/xiaomi/msm8960-common/proprietary/lib/libsensor_test.so:system/lib/libsensor_test.so \
-    vendor/xiaomi/msm8960-common/proprietary/lib/libsensor_user_cal.so:system/lib/libsensor_user_cal.so
-
 # Camera
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8960-common/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \

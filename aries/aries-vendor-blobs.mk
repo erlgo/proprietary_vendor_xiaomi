@@ -57,3 +57,12 @@ PRODUCT_COPY_FILES += \
 # RIL
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/aries/proprietary/lib/libcsd-client.so:system/lib/libcsd-client.so
+
+# Sensors taken from MIUI V8.1.3.0.LXAMIDI
+PRODUCT_COPY_FILES += \
+    vendor/xiaomi/aries/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
+    vendor/xiaomi/aries/proprietary/lib/libAKM.so:system/lib/libAKM.so \
+    vendor/xiaomi/aries/proprietary/lib/libsensor1.so:system/lib/libsensor1.so \
+    vendor/xiaomi/aries/proprietary/lib/libsensor_reg.so:system/lib/libsensor_reg.so \
+    vendor/xiaomi/aries/proprietary/lib/libsensor_test.so:system/lib/libsensor_test.so \
+    vendor/xiaomi/aries/proprietary/lib/libsensor_user_cal.so:system/lib/libsensor_user_cal.so
