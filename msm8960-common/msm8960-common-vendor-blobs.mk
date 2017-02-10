@@ -29,7 +29,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8960-common/proprietary/bin/ks:system/bin/ks \
     vendor/xiaomi/msm8960-common/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/xiaomi/msm8960-common/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-    vendor/xiaomi/msm8960-common/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/xiaomi/msm8960-common/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/xiaomi/msm8960-common/proprietary/bin/nl_listener:system/bin/nl_listener \
     vendor/xiaomi/msm8960-common/proprietary/bin/qcks:system/bin/qcks \
@@ -37,7 +36,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8960-common/proprietary/bin/radish:system/bin/radish \
     vendor/xiaomi/msm8960-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/xiaomi/msm8960-common/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
-    vendor/xiaomi/msm8960-common/proprietary/bin/thermald:system/bin/thermald \
     vendor/xiaomi/msm8960-common/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/xiaomi/msm8960-common/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/xiaomi/msm8960-common/proprietary/bin/usbhub:system/bin/usbhub \
