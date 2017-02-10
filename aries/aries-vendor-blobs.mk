@@ -90,7 +90,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/aries/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
     vendor/xiaomi/aries/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
     vendor/xiaomi/aries/proprietary/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
-    vendor/xiaomi/aries/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
     vendor/xiaomi/aries/proprietary/lib/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so \
     vendor/xiaomi/aries/proprietary/lib/libmmcamera_image_stab.so:system/lib/libmmcamera_image_stab.so \
     vendor/xiaomi/aries/proprietary/lib/libmmcamera_interface2.so:system/lib/libmmcamera_interface2.so \
@@ -101,9 +100,13 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/aries/proprietary/lib/libmmjps.so:system/lib/libmmjps.so \
     vendor/xiaomi/aries/proprietary/lib/libmmmpo.so:system/lib/libmmmpo.so \
     vendor/xiaomi/aries/proprietary/lib/libmmmpod.so:system/lib/libmmmpod.so \
-    vendor/xiaomi/aries/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
-    vendor/xiaomi/aries/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so
+    vendor/xiaomi/aries/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so
 
+# Additional camera blobs taken from M1cha cm 12
+PRODUCT_COPY_FILES += \
+    vendor/xiaomi/aries/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
+    vendor/xiaomi/aries/proprietary/lib/libmorpho_moviesolid.so:system/lib/libmorpho_moviesolid.so \
+    vendor/xiaomi/aries/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so
 
 # RIL
 PRODUCT_COPY_FILES += \
