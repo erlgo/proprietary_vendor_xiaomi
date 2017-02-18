@@ -25,7 +25,7 @@ PRODUCT_COPY_FILES += \
 	vendor/xiaomi/qcom-common/proprietary-keymaster/firmware/keymaster/keymaster.mdt:system/vendor/firmware/keymaster/keymaster.mdt
 
 # Keymaster && keystore libraries
-PRODUCT_COPY_FILES += \
+#PRODUCT_COPY_FILES += \
 	vendor/xiaomi/qcom-common/proprietary-keymaster/lib/libkeymaster1.so:system/lib/libkeymaster1.so \
 	vendor/xiaomi/qcom-common/proprietary-keymaster/lib/libkeymaster_messages.so:system/lib/libkeymaster_messages.so \
 	vendor/xiaomi/qcom-common/proprietary-keymaster/lib/libkeystore_binder.so:system/lib/libkeystore_binder.so \

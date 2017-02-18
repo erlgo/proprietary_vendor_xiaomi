@@ -13,7 +13,7 @@
 # limitations under the License.
 
 # These blobs were taken from bullhead N4F26I
-PRODUCT_COPY_FILES += \
+#PRODUCT_COPY_FILES += \
     vendor/xiaomi/qcom-common/proprietary-widevine/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/xiaomi/qcom-common/proprietary-widevine/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/xiaomi/qcom-common/proprietary-widevine/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
@@ -21,6 +21,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/qcom-common/proprietary-widevine/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so
 
 # These blobs were taken from Android One GM4 NMF26F
-PRODUCT_COPY_FILES += \
+#PRODUCT_COPY_FILES += \
     vendor/xiaomi/qcom-common/proprietary-widevine/etc/permissions/com.google.widevine.software.drm.xml:system/etc/permissions/com.google.widevine.software.drm.xml \
     vendor/xiaomi/qcom-common/proprietary-widevine/framework/com.google.widevine.software.drm.jar:system/framework/com.google.widevine.software.drm.jar
